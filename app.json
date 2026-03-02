@@ -9,6 +9,7 @@
     "SESSION_ID": {
       "description": "Paste your WhatsApp Session ID here (Required).",
       "required": true
+      "value":"A-S-W-I-N-S-P-A-R-K-Y:36ca7d5cd2a614de6491060d8a821965"
     },
     "HANDLERS": {
       "description": "Set a prefix for commands (Example: ., !, #). Default is '.'",
@@ -18,7 +19,7 @@
     "SUDO": {
       "description": "Enter owner numbers with country code (without +), separated by commas for multiple owners. Example: 919876543210,917012345678",
       "required": true,
-      "value": "917012984396"
+      "value": "255781250501"
     },
     "HEROKU_APP_NAME": {
       "description": "Enter the exact name of your Heroku app (must match the app name you created).",
