@@ -23,11 +23,11 @@
     },
     "HEROKU_APP_NAME": {
       "description": "Enter the exact name of your Heroku app (must match the app name you created).",
-      "required": true
+      "required": false
     },
     "HEROKU_API_KEY": {
       "description": "Paste your Heroku API Key (Get it from https://dashboard.heroku.com/account).",
-      "required": true
+      "required": false
     },
     "STICKER_DATA": {
       "description": "Set the Sticker Pack name and Author name (Format: PackName;AuthorName).",
@@ -42,7 +42,7 @@
     "ALWAYS_ONLINE": {
       "description": "Set to 'true' to keep bot always online, or 'false' to stay offline until a message is received.",
       "required": false,
-      "value": "false"
+      "value": "true"
     },
     "WORK_TYPE": {
       "description": "Set bot mode: 'public' to allow everyone to use, 'private' to allow only owner/sudo users.",
